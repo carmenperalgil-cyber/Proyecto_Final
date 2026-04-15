@@ -25,3 +25,5 @@ Y colocarlos en esta carpeta con los siguientes nombres:
 - sevilla_listings.csv
 - milan_listings.csv
 - turismo.csv
+
+- 
