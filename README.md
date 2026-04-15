@@ -42,13 +42,10 @@ Este análisis demuestra que el precio en Airbnb está determinado principalment
 Proyecto_Final/
 │
 ├── data/
-│   ├── raw/                        # Datos originales — intocables
-│   │   ├── madrid_listings.csv
-│   │   ├── mallorca_listings.csv
-│   │   ├── valencia_listings.csv
-│   │   ├── sevilla_listings.csv
-│   │   ├── milan_listings.csv
-│   │   └── turismo.csv             # Eurostat tour_occ_nin3
+│   ├── raw/                        # Datos originales (comprimidos por limitaciones de GitHub)
+│   │   ├── madrid_listings.csv.zip
+│   │   ├── mallorca_listings.csv.zip
+│   │   └── tour_occ_nin3_linear.csv.zip
 │   │
 │   └── processed/                  # Datos transformados
 │       ├── madrid_clean.csv
@@ -56,7 +53,7 @@ Proyecto_Final/
 │       ├── valencia_clean.csv
 │       ├── sevilla_clean.csv
 │       ├── milan_clean.csv
-│       ├── listings_merged.csv     # Concat + merge con Eurostat
+│       ├── listings_merged.csv     # Dataset combinado
 │       └── listings_final.csv      # Dataset final (66.411 × 28)
 │
 ├── notebooks/
@@ -72,10 +69,11 @@ Proyecto_Final/
 │   ├── analisis_exhaustivo.md
 │   ├── informe_analisis.pdf
 │   └── figures/                    # Gráficos exportados
+│       └── dashboard.png
 │
 └── README.md
 ```
-
+> ⚠️ Nota: Los datos en bruto se incluyen en formato comprimido (.zip) debido a limitaciones de tamaño en GitHub. Los datasets completos pueden obtenerse desde las fuentes originales (Inside Airbnb y Eurostat).
 ---
 
 ## ⚙️ Instalación y Requisitos
